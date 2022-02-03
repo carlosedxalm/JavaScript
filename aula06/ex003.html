@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Primero Programa</title>
+    <style>
+        body {
+            background-color: rgb(13, 13, 70);
+            color: azure;
+            font: 25pt Arial;
+        }
+        h1 {
+            color: rgb(96, 103, 109);
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, mundo!</h1>
+    <p>Já me livrei da maldição</p>
+
+    <script>
+
+       // para numeros inteiros: 
+       /*
+        var n1 = Number.parseInt(prompt("Digite um numero: "))
+        var n2 = Number.parseInt(prompt("digite outro numero: "))
+        */
+
+        // para numeros reais do tipo float
+        /*
+        var n1 = Number.parseFloat(prompt("Digite um numero: "))
+        var n2 = Number.parseFloat(prompt("digite outro numero: "))
+        */
+
+       /*desta forma o javascript autointerpreta se o numero é
+        tipo inteiro ou tipo real*/
+        var n1 = Number(prompt("Digite um numero: "))
+        var n2 = Number(prompt("digite outro numero: "))
+        var soma = n1 + n2
+
+        window.alert("a soma dos dois valores é: " + soma) //concatenação
+
+        //o + serve para contatenação e também para adição
+
+        
+    </script>
+</body>
+</html>
